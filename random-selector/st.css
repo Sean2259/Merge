@@ -1,0 +1,11 @@
+h1{
+    text-align: center;    
+}
+#pp, #what{
+    display: inline-block;
+    size: 20px;
+}
+img{
+    height: 300px;
+    width: 500px;
+}
