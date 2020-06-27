@@ -39,7 +39,7 @@ function onPlayerStateChange(event){
             player.loadVideoById({
                 "videoId":playList[currentPlay],
                 "startSeconds":playTime[currentPlay][0],
-                "endSeconds":playList[currentPlay][1],
+                "endSeconds":playTime[currentPlay][1],
                 "suggestedQuality":"large"
             });
         }else{

@@ -6,6 +6,19 @@ h1{
     size: 20px;
 }
 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 300px;
-    width: 500px;
+    width: 300px;
+}
+#result-1, #result-2{
+    font-size: 30px;
+    text-align: center;
+}
+#btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    
 }

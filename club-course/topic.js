@@ -1,9 +1,9 @@
 let inform =[
-    "JS hello world",
-    "JS Automatically scheduling",
-    "Suspension",
-    "holiday",
-    "Suspension"
+    "Read Bible",
+    "practive drawing",
+    "Wednesday grouping!",
+    "Read English",
+    "Have a rest"
 ];
 let startdate = new Date();
 
@@ -28,7 +28,7 @@ for(let x=0;x<inform.length;x++){
     y+=1;
     let classdate= new Date(startdate.getTime()+7*x*onedaymilliontime);
     let specially='<tr>'
-    if(inform[y]=='Suspension'){
+    if(inform[y]=='Wednesday grouping!'){
         specially="<tr style='background-color:lightyellow;'>"
     }
     $("#schedule").append(

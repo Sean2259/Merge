@@ -1,4 +1,13 @@
-
 body{
+    margin-top: 30px;
     text-align: center;
+    
+}
+#Result{
+    border: rgb(155, 245, 139) dashed 5px;
+    border-radius: 10px;
+    font-size: larger;
+    text-align: center;
+    padding-bottom: 15px;
+    background-color: lightyellow;
 }

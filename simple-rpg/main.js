@@ -32,7 +32,9 @@ $(document).ready(function(){
 $(document).keydown(function(event){
     let targetImagMainX, targetImgMainY, targetBlock, cutImagePositionX; 
     event.preventDefault();
+    console.log(event.originalEvent.code)
     switch(event.originalEvent.code){
+        
         case "ArrowLeft":
             targetImgMainX=currentImgMainX-200;
             targetImgMainY=currentImgMainY;
@@ -89,7 +91,7 @@ $(document).keydown(function(event){
             $("#talkBox").text("抵達終點");
             break;
         case 3:
-            $("#talkBox").text("哈囉");
-            break;
+            $("#talkBox").text("發現敵人!");
+                break;
     }
 });

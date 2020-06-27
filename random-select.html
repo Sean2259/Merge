@@ -62,17 +62,26 @@
       <main role="main">
       <div class="container marketing">  
         <hr class="featurette-divider">
-        <h1 id="pp">I am</h1>
-        <h1 id="random-result">?</h1>
+        <h1 id="pp">What kind of book do you want?</h1>
         <br>
-        <h1><input type="button" value="click" ></h1>
-        <ul id="choices">
-            <li>Naruto</li>
-            <li>Snow white</li>
-            <li>Flash</li>
-        </ul>
-        <img id="random-pic" src="" width="80%">
-    
+        <select name="books" id="book-choice">
+          <option value="讀經類" id="bible">讀經類</option>
+          <option value="福音類" id="gospel">福音類</option>
+          <option value="造就類" id="attainment">造就類</option>
+          <option value="教會與事奉類" id="church">造就類</option>
+          <option value="其他類" id="others">其他類</option>
+        </select>
+        <br>
+       
+        <h1><input id="click" type="button" value="click" ></h1>
+        <div style="position: relative; height: auto;">
+                <img id="img1" src="" alt="">
+                <div id="result-1">
+                </div>
+               <a class="btn btn-primary" target="blank" id="btn" href="">Detail</a>
+                
+          </div>
+        
         <hr class="featurette-divider">
 
       </div><!-- /.container -->
@@ -94,6 +103,7 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="assets/js/vendor/holder.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="random-selector/data.js"></script>
     <script src="random-selector/main.js"></script>
   </body>
